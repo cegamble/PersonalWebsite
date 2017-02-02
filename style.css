@@ -1,0 +1,51 @@
+html {
+  background: url(pic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+      margin-top: 180px;
+  max-width: 700px;
+  opacity: 0.9;
+}
+
+#header {
+  font-family:'Calligraffitti', cursive;
+  font-size: 32pt;
+  background-color: #6E6969;
+  color: #F29696;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px
+}
+
+#bio {
+  font-family: 'Nixie One', cursive;
+  font-size: 14pt;
+  background-color: #BBBDBF;
+  color: #1A3B69;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  float: right;
+  width: 530px;
+}
+#links {
+  font-family: 'Nixie One', cursive;
+  font-size: 14pt;
+  background-color:#8E8C91;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  float: left;
+  width: 170px;
+}
