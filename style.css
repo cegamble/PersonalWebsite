@@ -47,8 +47,8 @@ html {
   border-top-left-radius: 20px;
   text-align: center;
   border-bottom-left-radius: 20px;
-  padding-top: 137px;
-  padding-bottom: 137px;
+  padding-top: 127px;
+  padding-bottom: 127px;
   float: left;
   width: 170px;
 }
@@ -70,4 +70,9 @@ html {
   float: right;
   padding-bottom: 65px;
   padding-top: 66px;
+}
+
+#gbmargin {
+  padding-top: 47px;
+  padding-bottom: 47px;
 }

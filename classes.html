@@ -5,18 +5,56 @@
 	<title>Chesna Gamble</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
   <link href="https://fonts.googleapis.com/css?family=Arsenal|Cabin+Sketch|Calligraffitti|Nixie+One|Open+Sans+Condensed:300|Playfair+Display|Quicksand|Raleway" rel="stylesheet"></head>
 </head>
 <body>
   <div id="container">
   <div id="header"> <b>Chesna Gamble</b> </div>
-  <div id="bio"> 	My name is Chesna Gamble. I’ve lived in four countries (America, Uganda, India and now Cambodia). Idk I’m not a very interesting person so I don’t know what else to say. I have three siblings of which I’m the second oldest. When I graduate High School, the goal as of now is to attend Trinity Western University or Northwest Nazarene University and major in International business and maybe minor in Psychology or Biblical Studies. My goal in life is to help people, how I am going to go about that I’m not sure yet. Another goal of mine is to have lots of dogs because dogs are pretty cute. My favorite holiday is Christmas and my favorite season is fall.
+  <div id="bio">
+    <div id="web"> Web Design </div>
+    <button id="webdesbutton"> DESCRIPTION </button>
+        <div id="webdes"> <p>  Web design is fun. I am interested in the design part of websites and this class is helping me understand the internet and web more. </p> </div>
+    <div id="math"> AP Calculus </div>
+    <button id="mathdesbutton"> DESCRIPTION </button>
+        <div id="mathdes"> <p>  </p> AP Calculus is one of my harder classes. We learn about anti derivatives and u substitution and other stuff in preparation for the AP test.  </div>
+    <div id="hall1"> Study Hall </div>
+    <button onclick="hall1button"> DESCRIPTION </button>
+        <div id="hall1des"> <p> Study Hall is probably my favorite class. I can potentially catch up on homework and study during this time. However, I don’t get a lot done for the most part because it’s with Teresa and we usually just talk. </p> </div>
+    <div id="psych"> Psychology </div>
+    <button onclick="psychbutton"> DESCRIPTION </button>
+        <div id="psychdes"> <p> Psychology is an interesting class. We learn about the brain and how it works and what affects it which is pretty cool.  </p> </div>
+    <div id="lit"> World Literature </div>
+    <button onclick="litbutton"> DESCRIPTION </button>
+        <div id="litdes"> <p> World Lit can be challenging class at times, but I enjoy reading stories from other places so it’s all good. </p> </div>
+    <div id="hall2"> Study Hall </div>
+    <button onclick="hall2button"> DESCRIPTION </button>
+        <div id="hall2des"> <p> This study hall is when I have my online Physics class (ew).  </p> </div>
+    <div id="history"> U.S. History </div>
+    <button onclick="historybutton"> DESCRIPTION </button>
+        <div id="historydes"> <p>  U.S. History is a class where we learn about the history of the U.S. We learn about all the events and struggles America went through to become how it is today. </p> </div>
+    <div id="bible"> Worldviews </div>
+    <button onclick="biblebutton"> DESCRIPTION </button>
+        <div id="bibledes"> <p>  Worldviews in an interesting class. I like how we learn about other people's/religions views on life. It’s helping me attain a better understanding of the world. </p> </div>
  </div>
   <div id="links">
     <a href="index.html"> Home </a>
     <br> <a href="interests.html"> Interests </a>
     <br> <a href="worldview.html"> Worldview </a>
     <br> <a href="classes.html"> Classes </a>
+    <br> <a href="guestbook.html"> Guestbook </a>
 </div></div>
+<script>
+		  $( "#webdesbutton" ).click(function() {
+		  	$( "#webdes" ).toggle("slow");
+		  });
+</script>
+<script>
+  		$( "#mathdesbutton" ).click(function() {
+  			$( "#mathdes" ).toggle("slow");
+  	  });
+</script>
+
 	</body>
 </html>
